@@ -22,5 +22,10 @@ namespace Netflix
         {
             Process.Start("www.netflix.com/mx/title/81028336");
         }
+
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.youtube.com/watch?v=QSPtbkGELAk");
+        }
     }
 }
