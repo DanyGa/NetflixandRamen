@@ -35,7 +35,8 @@ namespace Netflix
         private void PictureBox3_Click(object sender, EventArgs e)
         {
             Process.Start("www.youtube.com/watch?v=yjmp8CoZBIo");
-           
+            Form Dead = new Gif1Dead();
+            Dead.Show();
         }
     }
 }
