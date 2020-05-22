@@ -26,6 +26,8 @@ namespace Netflix
         private void PictureBox2_Click(object sender, EventArgs e)
         {
             Process.Start("www.youtube.com/watch?v=gwMa6gpoE9I");
+            Form Dale = new GifBiTiEz();
+            Dale.Show();
         }
     }
 }
