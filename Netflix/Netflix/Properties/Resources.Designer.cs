@@ -63,6 +63,16 @@ namespace Netflix.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ONE_DIRECTION {
+            get {
+                object obj = ResourceManager.GetObject("ONE DIRECTION", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap YT {
             get {
                 object obj = ResourceManager.GetObject("YT", resourceCulture);

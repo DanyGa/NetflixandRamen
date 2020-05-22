@@ -21,13 +21,20 @@ namespace Netflix
         private void PictureBox1_Click(object sender, EventArgs e)
         {
             Process.Start("www.netflix.com/mx/title/81028336");
+           
         }
-
-        private void PictureBox2_Click(object sender, EventArgs e)
+       
+        private void PictureBox2_Click_1(object sender, EventArgs e)
         {
             Process.Start("www.youtube.com/watch?v=gwMa6gpoE9I");
             Form Dale = new GifBiTiEz();
             Dale.Show();
+        }
+
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+            Process.Start("www.youtube.com/watch?v=yjmp8CoZBIo");
+           
         }
     }
 }

@@ -92,5 +92,8 @@
   <ItemGroup>
     <None Include="Resources\YT.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ONE DIRECTION.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
