@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace Netflix
 {
@@ -15,6 +16,11 @@ namespace Netflix
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            Process.Start("www.netflix.com/mx/title/81028336");
         }
     }
 }
