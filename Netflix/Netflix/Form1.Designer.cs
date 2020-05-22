@@ -64,9 +64,9 @@
       // 
       this.label3.AutoSize = true;
       this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-      this.label3.Location = new System.Drawing.Point(233, 286);
+      this.label3.Location = new System.Drawing.Point(211, 284);
       this.label3.Name = "label3";
-      this.label3.Size = new System.Drawing.Size(470, 58);
+      this.label3.Size = new System.Drawing.Size(376, 46);
       this.label3.TabIndex = 4;
       this.label3.Text = ".. AHORA DA CLIC EN ESTA PARA VER \r\nEL MEJOR MV DE ONE DEAD";
       // 
