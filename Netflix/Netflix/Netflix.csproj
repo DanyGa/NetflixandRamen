@@ -58,6 +58,12 @@
     <Compile Include="GifBiTiEz.Designer.cs">
       <DependentUpon>GifBiTiEz.cs</DependentUpon>
     </Compile>
+    <Compile Include="GifTaylor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GifTaylor.Designer.cs">
+      <DependentUpon>GifTaylor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GifBiTiEz.resx">
       <DependentUpon>GifBiTiEz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GifTaylor.resx">
+      <DependentUpon>GifTaylor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -21,7 +21,8 @@ namespace Netflix
         private void PictureBox1_Click(object sender, EventArgs e)
         {
             Process.Start("www.netflix.com/mx/title/81028336");
-           
+            Form Taytay = new GifTaylor();
+            Taytay.Show();
         }
        
         private void PictureBox2_Click_1(object sender, EventArgs e)
